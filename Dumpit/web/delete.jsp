@@ -123,7 +123,7 @@
         int i=ps.executeUpdate();
        if(i>0){
           
-          out.print("<script>alert('Accepted by '"+name+"');window.location.assign('output.jsp?pickup_request');</script>");
+          out.print("<script>alert('Request Accepted');window.location.assign('output.jsp?pickup_request');</script>");
               
            
        }
